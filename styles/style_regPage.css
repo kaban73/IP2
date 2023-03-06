@@ -1,0 +1,11 @@
+@import url(style.css);
+
+.row {
+    justify-content: center;
+}
+
+.reg-form {
+    flex: 0 1 700px;
+    background-color: azure;
+    text-align: center;
+}
