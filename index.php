@@ -1,3 +1,4 @@
+<div class="wrapper">
 <?php
     include_once 'header.php';
 ?>
