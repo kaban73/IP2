@@ -15,8 +15,8 @@
                     <a href="#"><img class="logo-img" src="free-icon-blog-9398467.png" alt=""></a>
                 </div>
                 <div class="nav">
-                <a class="nav-el" href="#">Зарегистрироваться</a>    
-                <a class="nav-el" href="#">Войти</a>
+                    <a class="nav-el" href="#">Зарегистрироваться</a>
+                    <a class="nav-el" href="#">Войти</a>
                 </div>
             </div>
         </div>
