@@ -5,7 +5,51 @@
 }
 
 .reg-form {
-    flex: 0 1 700px;
-    background-color: azure;
-    text-align: center;
+    margin-top: 5em;
+    padding: 1em 3em 1em 3em;
+    flex: 0 1 600px;
+    background-color: #F2F2F2;
+
 }
+
+.form-el p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-el input {
+    margin-bottom: 26px;
+}
+
+.form-el input[type="text"] {
+    width: 300px;
+    height: 25px;
+}
+
+.form-el input[type="password"] {
+    width: 300px;
+    height: 25px;
+}
+
+.form-el input[type="submit"] {
+    float: right;
+}
+
+.form-el input[value="woman"] {
+    margin-left: 60px;
+}
+
+.reg_btn {
+    border: 1px solid rgba(30, 152, 215, 1);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(30, 152, 215, 1);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reg_btn:hover {background-color: rgb(33, 133, 184)}
+

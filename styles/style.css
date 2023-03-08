@@ -45,6 +45,14 @@ body {
     margin: 0px 0px 0px 45px;
 }
 
+.nav-el-dis {
+    background-color: rgb(235, 234, 234);
+    color: #333333ad;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.116);
+    pointer-events: none;
+    cursor: default;
+}
+
 .row {
     display: flex;
 }

@@ -1,0 +1,26 @@
+@import url(style_regPage.css);
+
+.auth-form {
+    margin-top: 5em;
+    padding: 1.5em 3em 1.5em 3em;
+    flex: 0 1 600px;
+    background-color: #F2F2F2;
+
+}
+
+.auth_btn {
+    border: 1px solid rgba(30, 152, 215, 1);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(30, 152, 215, 1);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.auth_btn:hover {background-color: rgb(33, 133, 184)}
+
+input[type="submit"] {
+    float: right;
+}

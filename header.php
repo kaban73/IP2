@@ -15,8 +15,8 @@
                     <a href="#"><img class="logo-img" src="images/free-icon-blog-9398467.png" alt=""></a>
                 </div>
                 <div class="nav">
-                    <a class="nav-el" href="regPage.php">Зарегистрироваться</a>
-                    <a class="nav-el" href="#">Войти</a>
+                    <a class="nav-el <?= $class_reg_btn ?>" href="regPage.php">Зарегистрироваться</a>
+                    <a class= "nav-el <?= $class_auth_btn ?>" href="authPage.php">Войти</a>
                 </div>
             </div>
         </div>
