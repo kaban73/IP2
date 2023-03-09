@@ -4,6 +4,8 @@
         $title = "Авторизация";
         $class_auth_btn = "nav-el-dis";
         $class_reg_btn = "";
+        $class_lk_btn = "nav-el-none";
+        $class_lk_btn_none = "";
         include_once 'header.php';
     ?>
 
@@ -11,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="auth-form">
-                    <form class="form" action="index.php">
+                    <form class="form" action="lkPage.php">
                         <div class="form-el">
                             <p>Ваш псевдоним:</p>
                             <input type="text">

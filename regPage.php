@@ -4,6 +4,8 @@
         $title = "Регистрация";
         $class_reg_btn = "nav-el-dis";
         $class_auth_btn = "";
+        $class_lk_btn = "nav-el-none";
+        $class_lk_btn_none = "";
         include_once 'header.php';
     ?>
 
@@ -11,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="reg-form">
-                    <form class="form" action="index.php">
+                    <form class="form" action="lkPage.php">
                         <div class="form-el">
                             <p>Ваше имя:</p>
                             <input type="text">

@@ -12,11 +12,12 @@
         <div class="container">
             <div class="header-line">
                 <div class="logo">
-                    <a href="#"><img class="logo-img" src="images/free-icon-blog-9398467.png" alt=""></a>
+                    <a href="index.php"><img class="logo-img" src="images/free-icon-blog-9398467.png" alt=""></a>
                 </div>
                 <div class="nav">
-                    <a class="nav-el <?= $class_reg_btn ?>" href="regPage.php">Зарегистрироваться</a>
-                    <a class= "nav-el <?= $class_auth_btn ?>" href="authPage.php">Войти</a>
+                    <a class="nav-el <?= $class_reg_btn ?> <?= $class_lk_btn_none ?>" href="regPage.php">Зарегистрироваться</a>
+                    <a class= "nav-el <?= $class_auth_btn ?> <?= $class_lk_btn_none ?>" href="authPage.php">Войти</a>
+                    <a class= "nav-el-lk <?= $class_lk_btn ?>" href="index.php">Выйти</a>
                 </div>
             </div>
         </div>

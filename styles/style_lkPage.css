@@ -1,0 +1,51 @@
+@import url(style.css);
+
+.nav-panel {
+    flex: 0 1 300px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+td {
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+  }
+
+td a{
+    text-decoration: none;
+    color: black;
+  }
+
+.content-panel {
+    flex: 0 1 1400px;
+    margin-top: 20px;
+}
+
+.content-content {
+    background-color: #F2F2F2;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.avatar {
+    flex: 0 1 100px
+}
+
+.avatar a {
+    float: right;
+}
+
+.data {
+    flex: 0 1 200px
+}
+
+.information {
+    flex: 0 1 400px;
+}

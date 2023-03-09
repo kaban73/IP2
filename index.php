@@ -2,6 +2,8 @@
     <?php
         $url = "styles/style.css";
         $title = "Главная страница";
+        $class_lk_btn = "nav-el-none";
+        $class_lk_btn_none = "";
         include_once 'header.php';
     ?>
 
