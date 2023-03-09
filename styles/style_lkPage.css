@@ -16,16 +16,23 @@ td {
     border: 1px solid black;
     text-align: center;
     padding: 20px;
-  }
+}
 
-td a{
-    text-decoration: none;
-    color: black;
-  }
+tbody tr:hover {
+    background-color: #F2F2F2;
+    opacity: 80%;
+}
 
 .content-panel {
     flex: 0 1 1400px;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 5px;
 }
 
 .content-content {
@@ -35,7 +42,14 @@ td a{
 }
 
 .avatar {
-    flex: 0 1 100px
+    flex: 0 1 350px
+}
+
+.avatar img {
+    width: 100%;
+    height: 90%;
+    object-fit: fill;
+    padding-bottom: 5px;
 }
 
 .avatar a {
@@ -44,6 +58,34 @@ td a{
 
 .data {
     flex: 0 1 200px
+}
+
+.data-el {
+    margin-bottom: 15px;
+}
+
+.data-el a {
+    float: right;
+}
+
+.el-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.el-text {
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.el-info {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: normal;
 }
 
 .information {
