@@ -19,70 +19,72 @@
             <div class="title">
                 Список моих друзей:
             </div>
-            <div class="columns-row">
-                <div class="columns-column">
-                    <div class="col">
-                        <div class="col-title">
-                            Иван Кабанов
-                        </div>
-                        <div class="col-row">
-                            <div class="col-image">
-                                <img src="images/avatar.jpg" alt="">
+            <div class="row">
+                <div class="columns-row">
+                    <div class="columns-column">
+                        <div class="col">
+                            <div class="col-title">
+                                Иван Кабанов
                             </div>
-                            <div class="col-body">
-                                <div class="col-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                            <div class="col-row">
+                                <div class="col-image">
+                                    <img src="images/avatar.jpg" alt="">
+                                </div>
+                                <div class="col-body">
+                                    <div class="col-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="columns-column">
-                    <div class="col">
-                        <div class="col-title">
-                            Иван Кабанов
-                        </div>
-                        <div class="col-row">
-                            <div class="col-image">
-                                <img src="images/avatar.jpg" alt="">
+                    <div class="columns-column">
+                        <div class="col">
+                            <div class="col-title">
+                                Иван Кабанов
                             </div>
-                            <div class="col-body">
-                                <div class="col-text">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                            <div class="col-row">
+                                <div class="col-image">
+                                    <img src="images/avatar.jpg" alt="">
+                                </div>
+                                <div class="col-body">
+                                    <div class="col-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="columns-column">
-                    <div class="col">
-                        <div class="col-title">
-                            Иван Кабанов
-                        </div>
-                        <div class="col-row">
-                            <div class="col-image">
-                                <img src="images/avatar.jpg" alt="">
+                    <div class="columns-column">
+                        <div class="col">
+                            <div class="col-title">
+                                Иван Кабанов
                             </div>
-                            <div class="col-body">
-                                <div class="col-text">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                            <div class="col-row">
+                                <div class="col-image">
+                                    <img src="images/avatar.jpg" alt="">
+                                </div>
+                                <div class="col-body">
+                                    <div class="col-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="columns-column">
-                    <div class="col">
-                        <div class="col-title">
-                            Иван Кабанов
-                        </div>
-                        <div class="col-row">
-                            <div class="col-image">
-                                <img src="images/avatar.jpg" alt="">
+                    <div class="columns-column">
+                        <div class="col">
+                            <div class="col-title">
+                                Иван Кабанов
                             </div>
-                            <div class="col-body">
-                                <div class="col-text">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                            <div class="col-row">
+                                <div class="col-image">
+                                    <img src="images/avatar.jpg" alt="">
+                                </div>
+                                <div class="col-body">
+                                    <div class="col-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, impedit.
+                                    </div>
                                 </div>
                             </div>
                         </div>

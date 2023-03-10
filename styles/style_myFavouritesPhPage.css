@@ -1,0 +1,79 @@
+@import url(style_lkPage.css);
+
+.columns-row {
+    display: flex;
+    margin: 0px -10px;
+}
+
+.columns-column {
+    padding: 0px 10px;
+    flex: 0 1 33.3333%;
+}
+
+.col {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.col-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-img {
+    flex: 0 1 200px;
+}
+
+.col-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.col-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.col-text {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: normal
+}
+
+.col-body {
+    flex: 1 1 200px;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 {
+    padding: 0px 0px 10px 0px;
+}
+
+.btn-fullSize{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(30, 152, 215, 1);
+    border-radius: 5px;
+}
+
+.btn2 {
+    padding: 0px 0px 10px 0px;
+}
+
+.btn-download{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(30, 152, 215, 1);
+    border-radius: 5px;
+}
