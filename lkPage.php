@@ -15,7 +15,7 @@
                 <div class="nav-panel">
                     <table class="nav-table">
                         <tr><td onclick="window.location.href='/lkPage.php'; return false">Личный кабинет</td></tr>
-                        <tr><td onclick="window.location.href='/lkPage.php'; return false">Мои друзья</td></tr>
+                        <tr><td onclick="window.location.href='/myFriendsPage.php'; return false">Мои друзья</td></tr>
                         <tr><td onclick="window.location.href='/lkPage.php'; return false">Истории из жизни</td></tr>
                         <tr><td onclick="window.location.href='/lkPage.php'; return false">Мой путь</td></tr>
                         <tr><td onclick="window.location.href='/lkPage.php'; return false">Любимые фото</td></tr>
@@ -28,7 +28,7 @@
                     <div class="row content-content">
                         <div class="avatar">
                             <img src="images/avatar.jpg" width="256px" alt="">
-                            <a href="#">изменить фото</a>
+                            <a href="#">Изменить фото</a>
                         </div>
                         <div class="data">
                             <div class="data-el">
