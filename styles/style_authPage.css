@@ -24,3 +24,40 @@
 input[type="submit"] {
     float: right;
 }
+
+@media (max-width: 992px) {
+    .auth-form {
+        flex: 0 1 500px;
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-el p{
+        font-size: 14px;
+    }
+
+    .form-el input {
+        margin-bottom: 11px;
+    }
+
+    .form-el input[type="text"] {
+        height: initial;
+    }
+    
+    .form-el input[type="password"] {
+        height: initial;
+    }
+
+    .auth-form {
+        margin-top: 1em;
+        padding: 0.5em 1.5em 1em 1.5em;
+        flex: 0 1 400px;
+    }
+
+    .auth_btn {
+        margin-top: 5px;
+        padding: 10px 20px 10px 20px;
+        font-size: 12px;
+    }
+}

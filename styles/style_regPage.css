@@ -5,7 +5,7 @@
 }
 
 .reg-form {
-    margin-top: 5em;
+    margin-top: 3em;
     padding: 1em 3em 1em 3em;
     flex: 0 1 600px;
     background-color: #F2F2F2;
@@ -51,5 +51,106 @@
     font-weight: 500;
 }
 
-.reg_btn:hover {background-color: rgb(33, 133, 184)}
+.reg_btn:hover {
+    background-color: rgb(33, 133, 184);
+}
 
+/* 
+@media (max-width: 1200px) {
+    .reg-form {
+        margin-top: 1em;
+        flex: 0 1 auto;
+    }
+
+    .form-el input {
+        margin-bottom: 13px;
+    }
+
+    .reg_btn {
+        margin-left: 40px;
+    }
+}
+*/
+
+
+@media (max-width: 992px) {
+    .reg-form {
+        margin-top: 1em;
+        padding: 1em 3em 1em 3em;
+        flex: 0 1 auto;
+    }
+
+    .form-el p{
+        font-size: 16px;
+    }
+
+    .form-el input {
+        margin-bottom: 13px;
+    }
+    
+    .form-el input[type="text"] {
+        height: initial;
+    }
+    
+    .form-el input[type="password"] {
+        height: initial;
+    }
+    
+    .form-el input[value="woman"] {
+        margin-left: 40px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+    
+    .reg_btn {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reg-form {
+        flex: 0 1 auto;
+        padding: 1em 2em 1em 2em;
+        margin-top: 1em;
+    }
+
+    .form-el p{
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .form-el input {
+        margin-bottom: 13px;
+    }
+    
+    .form-el input[type="text"] {
+        width: 200px;
+        height: initial;
+    }
+    
+    .form-el input[type="password"] {
+        width: 200px;
+        height: initial;
+    }
+    
+    .form-el input[type="submit"] {
+        margin-left: 10px;
+    }
+    
+    .form-el input[value="woman"] {
+        margin-left: 30px;
+    }
+
+    label{
+        font-size: 13px;
+    }
+    
+    .reg_btn {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+}
