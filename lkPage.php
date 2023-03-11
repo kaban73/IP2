@@ -58,6 +58,7 @@
                             мужской
                         </div>
                     </div>
+                    <br>
                     <div class="data-el">
                         <a href="#">Изменить данные</a>
                     </div>
