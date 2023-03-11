@@ -4,6 +4,7 @@
         $title = "Главная страница";
         $class_lk_btn = "nav-el-none";
         $class_lk_btn_none = "";
+        $class_nav_el_panel = "nav-el-none";
         include_once 'header.php';
     ?>
 

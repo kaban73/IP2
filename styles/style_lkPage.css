@@ -91,3 +91,45 @@ tbody tr:hover {
 .information {
     flex: 0 1 400px;
 }
+
+@media (max-width: 767px) {
+    .nav-panel {
+        display: none;
+    }
+
+    .nav-el-panel {
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border: 1px solid #797979;
+        border-left: none;
+        border-right: none;
+        padding: 10px;
+    }
+
+    .nav-menu {
+        height: 100%;
+        padding: 70px 10px 20px 0px;
+    }
+
+    .header-list {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .header-list li:last-child {
+        text-align: right;
+    }
+
+    .header-list li {
+        font-size: 20px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .nav-el-lk {
+        padding: 8px 16px;
+        margin: 0px 0px 0px 0px;
+    }
+
+}

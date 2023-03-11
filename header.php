@@ -21,6 +21,23 @@
                 </div>
                 <nav class="nav-menu">
                     <ul class="header-list">
+                        <!-- Навигационная панель для закрытой части !-->
+                        <li>
+                            <a class= "<?= $class_nav_el_panel ?>" href="lkPage.php">Личный кабинет</a>
+                        </li>
+                        <li>
+                            <a class= "<?= $class_nav_el_panel ?>" href="myFriendsPage.php">Мои друзья</a>
+                        </li>
+                        <li>
+                            <a class= "<?= $class_nav_el_panel ?>" href="myHistoriesPage.php">Истории из жизни</a>
+                        </li>
+                        <li>
+                            <a class= "<?= $class_nav_el_panel ?>" href="myWayPage.php">Мой путь</a>
+                        </li>
+                        <li>
+                            <a class= "<?= $class_nav_el_panel ?>" href="myFavouritesPhPage.php">Любимые фото</a>
+                        </li>
+                        <!-- Навигационная панель для закрытой части !-->
                         <li>
                             <a class="nav-el <?= $class_reg_btn ?> <?= $class_lk_btn_none ?>" href="regPage.php">Зарегистрироваться</a>
                         </li>

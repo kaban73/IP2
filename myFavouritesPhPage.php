@@ -7,6 +7,7 @@
         $class_auth_btn = "";
         $class_lk_btn = "";
         $class_lk_btn_none = "nav-el-none";
+        $class_nav_el_panel = "nav-el-panel";
         include_once 'header.php';
     ?>
 
